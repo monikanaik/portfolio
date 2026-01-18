@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monika Naik | Python Backend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="loader-content">
+      <div class="spinner-border text-primary" role="status"></div>
+      <div class="mt-3 fw-bold text-dark loader-text">
+        <span class="text-primary">M</span>onika<span class="text-primary"> N</span>aik<span
+          class="text-primary">.</span>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg fixed-top shadow-sm py-3 transition-all">
+  <div id="scrollProgress" class="position-absolute top-0 start-0 bg-primary shadow-glow" 
+       style="height: 3px; width: 0%; transition: width 0.1s ease-out; z-index: 1051;"></div>
+  
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4" href="#">
+      <span class="text-primary">M</span>onika<span class="text-primary"> N</span>aik<span class="text-primary">.</span>
+    </a>
+
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item px-2"><a class="nav-link nav-custom-link" href="#about">About</a></li>
+        <li class="nav-item px-2"><a class="nav-link nav-custom-link" href="#skills">Skills</a></li>
+        <li class="nav-item px-2"><a class="nav-link nav-custom-link" href="#projects">Projects</a></li>
+        <li class="nav-item px-2"><a class="nav-link nav-custom-link" href="#experience">Experience</a></li>
+        <li class="nav-item px-2"><a class="nav-link nav-custom-link" href="#contact">Contact</a></li>
+
+        <li class="nav-item ms-lg-3">
+          <button class="btn btn-theme-toggle" id="themeToggle" title="Toggle Theme">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero / About -->
+  <section id="about" class="hero d-flex align-items-center">
+    <div class="container text-center" data-aos="fade-up">
+      <h1 class="display-3 fw-bold mb-3">Python Backend Developer</h1>
+      <p class="lead mx-auto mb-4 text-secondary" style="max-width: 700px;">
+        Backend-focused engineer with 4.9 years of experience designing, building, and deploying scalable APIs.
+      </p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#projects" class="btn btn-primary px-4 py-2 shadow">View Projects</a>
+        <a href="assets/resume.pdf" class="btn btn-outline-dark px-4 py-2" target="_blank">Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Core Expertise</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-server text-primary me-2"></i>Backend</h6>
+              <p class="small text-muted mb-0">Python, Django, DRF, FastAPI</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-database text-primary me-2"></i>Databases</h6>
+              <p class="small text-muted mb-0">PostgreSQL, MySQL, MongoDB</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-bolt text-primary me-2"></i>Async & Jobs</h6>
+              <p class="small text-muted mb-0">Celery, Redis, Cron</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-cloud text-primary me-2"></i>DevOps & Cloud</h6>
+              <p class="small text-muted mb-0">Docker, Kubernetes, Git, AWS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="500">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-layer-group text-primary me-2"></i>System Design</h6>
+              <p class="small text-muted mb-0">REST APIs, JWT, RBAC, Scalable Architecture</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="600">
+          <div class="card h-100 skill-card shadow-sm p-3">
+            <div class="card-body">
+              <h6 class="fw-bold"><i class="fa-solid fa-vial text-primary me-2"></i>Testing</h6>
+              <p class="small text-muted mb-0">PyTest, Unit Testing, Integration Testing</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Featured Projects</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 shadow-sm project-card">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-soft">Backend System</span>
+                <a href="#" class="text-dark"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+              <h5 class="fw-bold mb-2">Investment Portfolio</h5>
+              <p class="text-muted small flex-grow-1">
+                Engineered a high-performance system for portfolio tracking and automated P&L calculations.
+              </p>
+              <div class="mb-4 d-flex flex-wrap gap-1">
+                <span class="badge border">DRF</span>
+                <span class="badge border">Celery</span>
+                <span class="badge border">PostgreSQL</span>
+                <span class="badge border">Docker</span>
+              </div>
+              <a href="#" class="btn btn-outline-dark btn-sm w-100 py-2">View Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 shadow-sm project-card">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-soft">API Design</span>
+                <a href="#" class="text-dark"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+              <h5 class="fw-bold mb-2">Scalable Booking API</h5>
+              <p class="text-muted small flex-grow-1">
+                Built a high-concurrency booking engine featuring JWT security and real-time availability checks.
+              </p>
+              <div class="mb-4 d-flex flex-wrap gap-1">
+                <span class="badge border">FastAPI</span>
+                <span class="badge border">JWT</span>
+                <span class="badge border">Redis</span>
+              </div>
+              <a href="#" class="btn btn-outline-dark btn-sm w-100 py-2">View Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 shadow-sm project-card">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-soft">Management</span>
+                <a href="#" class="text-dark"><i class="fab fa-github fa-lg"></i></a>
+              </div>
+              <h5 class="fw-bold mb-2">Employee Portal</h5>
+              <p class="text-muted small flex-grow-1">
+                Developed a robust RBAC-enabled system supporting nested data structures and secure uploads.
+              </p>
+              <div class="mb-4 d-flex flex-wrap gap-1">
+                <span class="badge border">Django</span>
+                <span class="badge border">RBAC</span>
+                <span class="badge border">AWS S3</span>
+              </div>
+              <a href="#" class="btn btn-outline-dark btn-sm w-100 py-2">View Source Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5 text-center" data-aos="fade-up">Professional Experience</h2>
+
+          <div class="timeline-container">
+            <div class="timeline-item pb-4 mb-4 border-start border-primary border-3 ps-4 position-relative"
+              data-aos="fade-left" data-aos-delay="100">
+              <div class="timeline-dot position-absolute bg-primary rounded-circle"
+                style="width:12px; height:12px; left:-8px; top:0;"></div>
+              <h5 class="fw-bold mb-1">Python Backend Developer</h5>
+              <p class="text-primary fw-semibold mb-3">4.9 Years of Experience</p>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start mb-2">
+                    <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                    <span>Designed and maintained scalable REST APIs in production environments</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start mb-2">
+                    <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                    <span>Improved database performance using indexing and query optimization</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start mb-2">
+                    <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                    <span>Built asynchronous background jobs using Celery and Redis</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start mb-2">
+                    <i class="fa-solid fa-circle-check text-success mt-1 me-2"></i>
+                    <span>Containerized applications and deployed them on AWS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+  <div class="container text-center">
+    <div class="card border-0 shadow-lg p-5 glass-card mx-auto" style="max-width: 600px;" data-aos="zoom-in">
+      <h2 class="fw-bold mb-4">Let's Connect</h2>
+      <p class="text-muted mb-4">I'm currently open to new opportunities and interesting backend projects.</p>
+      
+      <div class="mb-5">
+        <a href="mailto:naikmonika73@gmail.com" class="btn btn-primary btn-lg rounded-pill px-4">
+          <i class="fa-regular fa-envelope me-2"></i>naikmonika73@gmail.com
+        </a>
+      </div>
+
+      <div class="d-flex justify-content-center gap-3">
+        <a href="https://github.com/monikanaik" target="_blank" class="social-icon-btn">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/monika-naik-09a466251/" target="_blank" class="social-icon-btn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  <button id="backToTop" class="btn btn-primary rounded-circle shadow-lg position-fixed"
+    style="bottom: 30px; right: 30px; width: 50px; height: 50px;" title="Go to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <footer class="footer-glass py-5 mt-5">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-md-start mb-4 mb-md-0">
+          <h4 class="fw-bold mb-0">Monika Naik<span class="text-primary">.</span></h4>
+          <p class="small opacity-50 mb-0">Python Backend Developer</p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="d-flex justify-content-center gap-3">
+            <a href="https://github.com/monikanaik" target="_blank" class="social-icon"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/monika-naik-09a466251/" target="_blank" class="social-icon"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:naikmonika73@gmail.com" class="text-decoration-none fs-5 fw-bold contact-link">
+              <i class="fa-regular fa-envelope me-2 text-primary"></i>naikmonika73@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <p class="mb-0 small opacity-75">© 2026 | Built with Passion & Python</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/min.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+<a href="assets/resume.pdf" class="btn btn-primary d-lg-none resume-fab shadow-lg" target="_blank">
+  <i class="fa-solid fa-file-arrow-down me-2"></i>CV
+</a>
+</body>
+
+</html>
